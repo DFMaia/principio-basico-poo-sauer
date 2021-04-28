@@ -1,3 +1,5 @@
+package Aula6;
+
 public class MediaAluno {
 
     private int [] notasAluno = new int[4];

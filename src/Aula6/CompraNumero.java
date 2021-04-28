@@ -1,3 +1,5 @@
+package Aula6;
+
 public class CompraNumero {
 
     public void comparaNumeros(double numA, double numB){

@@ -1,3 +1,5 @@
+package Aula6;
+
 public class TrocaNumero {
 
     public void trocaNumeros(double numA, double numB){

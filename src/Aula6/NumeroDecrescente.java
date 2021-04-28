@@ -1,3 +1,5 @@
+package Aula6;
+
 public class NumeroDecrescente {
 
     public void numeroDecrescente(double numero){

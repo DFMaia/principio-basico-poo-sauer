@@ -1,3 +1,5 @@
+package Aula6;
+
 public class Conta {
 
     private double saldo;

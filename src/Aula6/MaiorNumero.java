@@ -1,3 +1,5 @@
+package Aula6;
+
 public class MaiorNumero {
 
     public double maiorNumero(int primeiroNumero, int segundoNumero){

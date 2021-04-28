@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Aula6;
 
 public class Programa {
 

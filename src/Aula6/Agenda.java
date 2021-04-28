@@ -1,3 +1,5 @@
+package Aula6;
+
 public class Agenda {
 
     private Contato contato [] = new Contato[4];
