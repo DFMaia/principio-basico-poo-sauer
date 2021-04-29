@@ -10,6 +10,16 @@ public class Lampada {
     private boolean status;
     private double preco;
 
+    Lampada(String tipo, String cor, String marca, int voltagem, int potencia, boolean status, double preco){
+        this.tipo = tipo;
+        this.cor = cor;
+        this.marca = marca;
+        this.voltagem = voltagem;
+        this.potencia = potencia;
+        this.status = status;
+        this.preco = preco;
+    }
+
     public void acender(){
         this.status = true;
     }
@@ -66,7 +76,7 @@ public class Lampada {
         return potencia;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 
