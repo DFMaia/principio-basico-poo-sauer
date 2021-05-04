@@ -10,6 +10,7 @@ public class ProgramaEmpregado {
         empregado1.setSalarioMensal(-3500.00);
         empregado1.setSalarioMensal(3500.00);
         System.out.println("O salário anual é de: " + empregado1.salarioAnual());
+        System.out.println("O salário corrigido em percentagem é de: " + empregado1.salarioDezPorcento());
 
         Empregado empregado2 = new Empregado();
         empregado2.setPrimeiroNome("João");
@@ -17,6 +18,7 @@ public class ProgramaEmpregado {
         empregado2.setSalarioMensal(-4500.00);
         empregado2.setSalarioMensal(4500.00);
         System.out.println("O salário anual é de: " + empregado2.salarioAnual());
+        System.out.println("O salário corrigido em percentagem é de: " + empregado2.salarioDezPorcento());
 
     }
 

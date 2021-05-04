@@ -11,7 +11,7 @@ public class Empregado {
     }
 
     public double salarioDezPorcento(){
-        return this.salarioMensal * 0.10;
+        return this.salarioMensal+= (this.salarioMensal * 0.10) + this.salarioMensal;
     }
 
     public void setSalarioMensal(double salarioMensal) {
