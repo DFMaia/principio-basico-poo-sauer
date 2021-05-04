@@ -45,7 +45,6 @@ public class CanetaTesteVetor {
 
         }
 
-
     }
 
     public static void todasAsCanetas(){
@@ -76,8 +75,6 @@ public class CanetaTesteVetor {
             listaDeCanetas.stream().filter(e -> e.getCor().equals(cor)).forEach(e -> System.out.println(e));
         }
     }
-
-
 
     public static void main(String[] args) {
 
